@@ -6,15 +6,16 @@ int main()
     char c;
     int count=0;
     printf("entrer la chaine:");
-    scanf("%s",str1);
+    scanf(" %s",str1);
     printf("entrer le Caractère chercher:");
-    scanf("%c",&c);
+    scanf(" %c",&c);
     while(str1[i]!='\0')
     {
-        if(str[i]==c)
+        if(str1[i]==c)
         {
-            count++:
+            count++;
         }
         i++;
     }
-}
+    printf("le nombre d'occurence de %c est: %d",c,count);
+}   
